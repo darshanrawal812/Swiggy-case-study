@@ -20,7 +20,7 @@ GROUP BY r_id
 ORDER BY 'No.Of Orders' 
 DESC LIMIT 3;
 
--- 4. restaurants with monthly sales greater than x for 
+-- 4. restaurants with monthly sales greater than x 
 
 SELECT r_name,SUM(amount) AS "REVENUE" 
 FROM orders o
